@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+        <title>Homepage | minimalistic-ecommerce-site-vane-jung</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="css/main.fac3bc7462eeb2b74d7a.css" rel="stylesheet"><link href="css/nouislider.fac3bc7462eeb2b74d7a.css" rel="stylesheet"></head>
+
+    <body>      
+        <header class="header flex-md align-items-md-center">        	
+        	<a class="header__logo b-img b-img_logo" href="#main-site">
+        		<h1 class="sr-only">Title of the website</h1>
+        	</a>        	
+        	<nav class="navigation" aria-label="Main menu">        		
+	            <button class="header__hamburger hamburger" type="button" aria-expanded="false" aria-controls="menu">
+					<span class="sr-only">Open/close menu</span>
+					<span class="hamburger__box">
+					    <span class="hamburger__inner"></span>
+					</span>
+				</button> 		
+	            <ul id="menu" class="header__menu menu">
+	                <li class="menu__item">
+	                    <a href="#Home" class="menu__link">Home</a>
+	                </li>
+	                <li class="menu__item">
+	                    <a href="#Shop" class="menu__link">Shop</a>
+	                </li>
+	                <li class="menu__item">
+	                    <a href="#Magazine" class="menu__link">Magazine</a>
+	                </li>	                
+	            </ul>
+	            <div class="header__options flex justify-content-between align-items-center">
+		        	<button class="header__shopping-cart b-img b-img_shopping-cart b-img_shopping-cart_empty" type="button">
+		        		<span class="sr-only">Shopping cart</span>
+		        	</button>
+		        	<button class="header__login" type="button">Login</button>
+	        	</div>
+        	</nav>        	 
+        </header>
+
+    	<main class="container">
+			<div class="row">
+				<form class="search-form col col_sm_8 flex align-items-md-center" role="search">
+  					<button class="search-form__button b-img b-img_search-icon" type="button">
+  						<span class="sr-only">Search</span>
+  					</button>
+					<input class="search-form__search" type="text" aria-label="search text" placeholder="e.g living room">
+				</form>
+				<div class="accordion col col_sm_4">
+					<div class="accordion__wrapper">
+						<h2 class="accordion__title">Best match</h2>					
+						<button class="accordion__button">									
+							<span class="sr-only">Open/close</span>
+							<span class="accordion__arrow accordion__arrow_big"></span>
+						</button>	
+					</div>						
+				</div>
+			</div>
+			<div class="row">
+				<div class="accordion col col_sm_6 col_xl_3">
+					<div class="accordion__wrapper d-sm-none">
+						<h2 class="accordion__title">Filters</h2>
+						<button class="accordion__button" type="button" aria-expanded="false" aria-controls="filters">			
+							<span class="sr-only">Open/close</span>
+							<span class="accordion__arrow accordion__arrow_big"></span>
+						</button>
+					</div>
+					<div id="filters" class="accordion__list">
+						<p class="accordion__note">Filter by</p>
+						<div class="accordion__inner">								
+							<p class="accordion__text">Collection</p>
+							<button class="accordion__button">									
+								<span class="sr-only">Open/close</span>
+								<span class="accordion__arrow accordion__arrow_small"></span>
+							</button>
+						</div>								
+						<div class="accordion__inner">								
+							<p class="accordion__text">Color</p>
+							<button class="accordion__button">									
+								<span class="sr-only">Open/close</span>
+								<span class="accordion__arrow accordion__arrow_small"></span>
+							</button>
+						</div>						
+						<div class="accordion__inner">
+							<p class="accordion__text">Category</p>
+							<button class="accordion__button">									
+								<span class="sr-only">Open/close</span>
+								<span class="accordion__arrow accordion__arrow_small"></span>
+							</button>
+						</div>
+						<div class="accordion__inner accordion__inner_range">					
+							<p class="accordion__text">Price Range</p>
+							<div id="slider"></div>
+							<div class="slider-snap-value flex justify-content-between">
+								<span class="example-val" id="slider-snap-value-lower">0</span>
+								<span class="example-val" id="slider-snap-value-upper">10000</span>
+							</div>
+						</div>
+					</div>			
+				</div>
+				<div class="product col col_sm_6 col_xl_3">
+					<img class="product__img img" src="img/products/coombes.2b8c0bd20815939f6bd84942c9de25b4.jpg" alt="Alternative text...">
+					<h2 class="product__title">
+						<a href="#">Coombes</a>
+					</h2>
+					<div class="product__details flex justify-content-between align-items-end">
+						<a class="product__category" href="#">Lounge</a>
+						<p class="product__price">$2,600</p>
+					</div>
+					<div class="flex justify-content-between align-items-end">
+						<div class="product__raiting">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+						<button class="b-img b-img_shopping-cart b-img_shopping-cart_full">
+							<span class="sr-only">Add to shopping cart</span>
+						</button>
+					</div>
+				</div>
+				<div class="product col col_sm_6 col_xl_3">
+					<img class="product__img img" src="img/products/keeve-set.5da7ee908da78d540ebe44e451b32481.jpg" alt="Alternative text...">
+					<h2 class="product__title">
+						<a href="#">Keeve Set</a>
+					</h2>
+					<div class="product__details flex justify-content-between align-items-end">
+						<a class="product__category" href="#">Table & Chairs</a>
+						<p class="product__price">$590</p>
+					</div>
+					<div class="flex justify-content-between align-items-end">
+						<div class="product__raiting">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+						<button class="b-img b-img_shopping-cart b-img_shopping-cart_full">
+							<span class="sr-only">Add to shopping cart</span>
+						</button>
+					</div>
+				</div>
+				<div class="product col col_sm_6 col_xl_3">
+					<img class="product__img img" src="img/products/nillè.993c7f516d4ab0f54981164560a9fdea.jpg" alt="Alternative text...">
+					<h2 class="product__title">
+						<a href="#">Nillè</a>
+					</h2>
+					<div class="product__details flex justify-content-between align-items-end">
+						<a class="product__category" href="#">Armchair</a>
+						<p class="product__price">$950</p>
+					</div>
+					<div class="flex justify-content-between align-items-end">
+						<div class="product__raiting">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+						<button class="b-img b-img_shopping-cart b-img_shopping-cart_full">
+							<span class="sr-only">Add to shopping cart</span>
+						</button>
+					</div>
+				</div>	
+			</div>
+			<div class="row">
+				<div class="product col col_sm_6 col_xl_3">
+					<img class="product__img img" src="img/products/blanko.ccdf7f93d3659442956f923609c2781b.jpg" alt="Alternative text...">
+					<h2 class="product__title">
+						<a href="#">Blanko</a>
+					</h2>
+					<div class="product__details flex justify-content-between align-items-end">
+						<a class="product__category" href="#">Side Table</a>
+						<p class="product__price">$90</p>
+					</div>
+					<div class="flex justify-content-between align-items-end">
+						<div class="product__raiting">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+						<button class="b-img b-img_shopping-cart b-img_shopping-cart_full">
+							<span class="sr-only">Add to shopping cart</span>
+						</button>
+					</div>
+				</div>
+				<div class="product col col_sm_6 col_xl_3">
+					<img class="product__img img" src="img/products/momo.dfb7d809c413819387ccac91059591ba.jpg" alt="Alternative text...">
+					<h2 class="product__title">
+						<a href="#">Momo</a>
+					</h2>
+					<div class="product__details flex justify-content-between align-items-end">
+						<a class="product__category" href="#">Shelves</a>
+						<p class="product__price">$890</p>
+					</div>
+					<div class="flex justify-content-between align-items-end">
+						<div class="product__raiting">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+						<button class="b-img b-img_shopping-cart b-img_shopping-cart_full">
+							<span class="sr-only">Add to shopping cart</span>
+						</button>
+					</div>
+				</div>				
+				<div class="product col col_sm_6 col_xl_3">
+					<img class="product__img img" src="img/products/penemillè.55df2ff5b51b8692bd68fba4f18161d1.jpg" alt="Alternative text...">
+					<h2 class="product__title">
+						<a href="#">Penemillè</a>
+					</h2>
+					<div class="product__details flex justify-content-between align-items-end">
+						<a class="product__category" href="#">Chair</a>
+						<p class="product__price">$120</p>
+					</div>
+					<div class="flex justify-content-between align-items-end">
+						<div class="product__raiting">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+						<button class="b-img b-img_shopping-cart b-img_shopping-cart_full">
+							<span class="sr-only">Add to shopping cart</span>
+						</button>
+					</div>
+				</div>
+				<div class="product col col_sm_6 col_xl_3">
+					<img class="product__img img" src="img/products/kappu.97e6c1b2c51282b1243fb1c5dab06d58.jpg" alt="Alternative text...">
+					<h2 class="product__title">
+						<a href="#">Kappu</a>
+					</h2>
+					<div class="product__details flex justify-content-between align-items-end">
+						<a class="product__category" href="#">Shelves</a>
+						<p class="product__price">$420</p>
+					</div>
+					<div class="flex justify-content-between align-items-end">
+						<div class="product__raiting">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+						<button class="b-img b-img_shopping-cart b-img_shopping-cart_full">
+							<span class="sr-only">Add to shopping cart</span>
+						</button>
+					</div>
+				</div>
+			</div>			
+
+        	<nav class="pagination" aria-label="Pagination">
+        		<ul class="pagination__list flex justify-content-center">
+	                <li class="pagination__item">
+	                    <a class="pagination__link pagination__link_active" href="#">1</a>
+	                </li>
+	                <li class="pagination__item">
+	                    <a class="pagination__link" href="#">2</a>
+	                </li>
+	                <li class="pagination__item">
+	                    <a class="pagination__link" href="#">3</a>
+	                </li>
+	                <li class="pagination__item">
+	                    <a class="pagination__link" href="#">4</a>
+	                </li>
+	                <div>
+		                <li class="pagination__item">
+		                    <a class="pagination__link" href="#">5</a>
+		                </li>
+		                <li class="pagination__item">
+		                    <a class="pagination__link" href="#">6</a>
+		                </li>
+		                <li class="pagination__item">
+		                    <a class="pagination__link" href="#">7</a>
+		                </li>
+		                <li class="pagination__item">
+		                    <a class="pagination__link" href="#">8</a>
+		                </li>
+		                <li class="pagination__item">
+		                    <a class="pagination__link" href="#">9</a>
+		                </li>
+		                <li class="pagination__item">
+		                    <a class="pagination__link" href="#">10</a>
+		                </li>
+	                </div>
+	                <li class="pagination__item">
+	                    <a class="pagination__link" href="#">></a>
+	                </li>
+	            </ul>
+        	</nav>       	 
+        </main>                                                   
+    <script src="js/main.d55df0ab37d21c652fe7.js" defer="defer"></script><script src="js/nouislider.423370e5d136859432b7.js" defer="defer"></script></body>
+</html>
