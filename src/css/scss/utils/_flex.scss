@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.align-items-end {
+	align-items: flex-end;
+}
+
+.justify-content-center {
+	justify-content: center;    
+}
+
+.justify-content-between {
+	justify-content: space-between;    
+}
+
+@media( min-width: 768px ) {
+	.flex-md {
+		display: flex;
+	}
+
+	.align-items-md-center {
+		align-items: center;
+	}	
+}

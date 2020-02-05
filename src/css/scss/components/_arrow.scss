@@ -1,0 +1,14 @@
+.arrow {
+	border: solid $black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+
+	&_up {
+		transform: rotate(-135deg);
+	}
+
+	&_down {
+		transform: rotate(45deg);
+	}
+}

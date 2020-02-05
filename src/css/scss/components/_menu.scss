@@ -1,0 +1,44 @@
+.menu {
+    padding-top: 86px;
+    background-color: $color-black-lighter;
+    display: none;
+
+	&__link {
+	    padding: 1.4rem 1.125rem;
+	   	font-weight: bold;
+	   	font-size: $text-s;
+		line-height: $line-height-s;
+	    color: $white;
+	    text-transform: uppercase;
+	    display: block;
+
+	    &:hover {
+		    text-decoration: underline;
+		}
+	}
+
+	.active & {
+		height: 100vh;
+		display: block;
+	}
+}
+
+@media (min-width: 768px) {
+	.menu {
+        padding: 0 0 0 1.5rem;
+        background-color: inherit;        
+
+		&__link {
+	        color: $color-primary;
+	    }
+
+	    .active & {
+			height: inherit;
+		}
+
+		&, .active & {
+			display: flex;
+		}
+	}	
+}
+	

@@ -1,0 +1,35 @@
+.search-form {
+	margin: 0 0 2.625rem;
+	z-index: 1;
+
+	&__button {
+		margin: 0.1875rem 0 0;
+	}
+
+	&__search {
+		margin: 0 0 0 1.625rem;
+		padding: 0 0 0.875rem;
+		width: calc(100% - 46px);
+		border-bottom: 2px solid $color-black-lighter;
+		font-size: $text-l;
+		font-weight: bold;
+		line-height: $line-height-l;
+	}	
+}
+
+@media (min-width: 576px) {
+	.search-form {
+		margin: 0 0 4.1875rem;			
+	}
+}
+
+@media (min-width: 768px) {
+	.search-form {
+		&__search {
+			margin: 0 0 0 3.5625rem;
+			width: calc(100% - 97px);
+			font-size: $text-xl;
+			line-height: $line-height-xl;
+		}
+	}
+}

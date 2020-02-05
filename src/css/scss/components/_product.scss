@@ -1,0 +1,40 @@
+.product {
+	margin: 0.6875rem 0 1.25rem;
+
+	&__title {
+	    position: relative;
+	}	
+
+	&__img {
+    	min-height: 269px;
+		clip-path: polygon(0% 0%, 0 100%, 0 84%, 70% 84%, 70% 100%, 100% 100%, 100% 100%, 100% 0%);
+	}
+
+	&__details {
+		margin: 0 0 1.1875rem;
+	}
+
+	&__category {
+		font-size: $text-xs;
+		line-height: $line-height-xs;
+		opacity: 0.5;
+		text-transform: uppercase;
+	}
+
+	&__title, &__price {
+		margin: 0;
+		font-weight: bold;
+		font-size: $text-m;
+		line-height: $line-height-m;
+	}	
+
+	a:hover {
+		text-decoration: underline;
+	}		
+}
+
+@media( min-width: 576px ) {
+	.product {
+		margin: 0 0 2.9375rem;
+	}
+}

@@ -1,0 +1,17 @@
+#slider {
+	padding: 0 0 0 1rem;
+}
+
+.slider-snap-value {
+	margin: 1.5625rem 0 0.75rem;
+}
+
+#slider-snap-value-lower, #slider-snap-value-upper {
+	font-weight: bold;
+	font-size: $text-s;
+    line-height: $line-height-s;
+}
+
+#slider-snap-value-upper::after {
+	content: "+";
+}

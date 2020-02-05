@@ -1,0 +1,29 @@
+.p {
+	&-1 {
+		padding: 0.625rem;
+	}
+
+	&t-1 {
+		padding-top: 2.625rem;
+	}
+}
+
+@media( min-width: 768px ) {
+	.m {
+		&x-md-n1 {
+			margin-right: -21px !important;
+	    	margin-left: -21px !important;
+		}
+	}
+
+	.p {
+		&t-md-1 {
+			padding-top: 1.625rem;
+		}
+
+		&x-md-1 {
+			padding-right: 21px !important;
+    		padding-left: 21px !important;	
+		}
+	}
+}

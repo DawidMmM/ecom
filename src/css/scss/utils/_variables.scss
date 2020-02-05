@@ -1,0 +1,53 @@
+/*Grid*/
+
+$grid-columns:      12;
+$grid-gutter-width: 30px;
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 895px,
+  xl: 1140px
+);
+
+/*Colors*/
+
+$black: #000000;
+$white: #ffffff;
+$color-primary: #22232B;
+$color-black-light: #131313;
+$color-black-lighter: #1B1B1B;
+$color-pagination: #383B48;
+
+/*Fonts*/
+
+$font-primary: 'Roboto', sans-serif;
+
+/*Text*/
+
+$text-xs: 0.6875rem;
+$text-s: 0.8125rem;
+$text-m: 1rem;
+$text-l: 1.125rem;
+$text-xl: 1.625rem;
+
+/*Line-height*/
+
+$line-height-xs: 0.8125rem;
+$line-height-s: 0.9375rem;
+$line-height-m: 1.1875rem;
+$line-height-l: 1.3125rem;
+$line-height-xl: 1.9375rem;
